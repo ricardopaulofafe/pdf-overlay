@@ -14,7 +14,7 @@ public interface OverlayDocumentServiceInterface {
 	/**
 	 * 
 	 * @param etoDoc eto document from client (MOH)
-	 * @param stamp picture to overlay in the document
+	 * @param qrCodeDoc picture to overlay in the document
 	 * @return
 	 */
 	public Response uploadFile(InputStream etoDoc,  InputStream qrCodeDoc);
