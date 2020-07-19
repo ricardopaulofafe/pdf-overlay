@@ -57,7 +57,7 @@ public class OverlayDocumentService implements OverlayDocumentServiceInterface {
 	
 	
 	@GET
-	@Path("/healthcheck")
+	@Path("/management/health")
 	public Response healthCheck() {
 		return Response.status(200).entity("I am as great as I could be!").build();
 	}
